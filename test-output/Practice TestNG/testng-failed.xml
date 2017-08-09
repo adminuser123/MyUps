@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice TestNG]" parallel="tests">
+  <parameter name="run" value="ie"/>
+  <test name="Firefox browser Test">
+    <parameter name="run" value="Firefox"/>
+    <classes>
+      <class name="com.main.driverBase.BaseDriverClass"/>
+    </classes>
+  </test> <!-- Firefox browser Test -->
+  <test name="Chrome browser Test">
+    <parameter name="run" value="chrome"/>
+    <classes>
+      <class name="com.main.driverBase.BaseDriverClass"/>
+    </classes>
+  </test> <!-- Chrome browser Test -->
+  <test name="IE browser Test">
+    <parameter name="run" value="ie"/>
+    <classes>
+      <class name="com.main.driverBase.BaseDriverClass"/>
+    </classes>
+  </test> <!-- IE browser Test -->
+  <test name="Functional Test">
+    <classes>
+      <class name="com.scripting.page.ScriptRunning_class">
+        <methods>
+          <include name="userLogin"/>
+        </methods>
+      </class> <!-- com.scripting.page.ScriptRunning_class -->
+    </classes>
+  </test> <!-- Functional Test -->
+  <test name="Functional Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.scripting.page.ScriptRunning_class">
+        <methods>
+          <include name="userLogin"/>
+        </methods>
+      </class> <!-- com.scripting.page.ScriptRunning_class -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [Practice TestNG] -->

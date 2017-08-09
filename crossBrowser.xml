@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice TestNG" parallel= "tests">
+	<test name="Firefox browser Test">
+		<parameter name="run" value="Firefox" />
+		<classes>
+			<class name="com.main.driverBase.BaseDriverClass">
+			</class>
+		</classes>
+	</test>
+	<test name="Chrome browser Test">
+		<parameter name="run" value="chrome" />
+		<classes>
+			<class name="com.main.driverBase.BaseDriverClass">
+			</class>
+		</classes>
+
+	</test>
+	<test name="IE browser Test">
+		<parameter name="run" value="ie" />
+		<classes>
+			<class name="com.main.driverBase.BaseDriverClass">
+			</class>
+		</classes>
+		</test>
+		<test name="Functional Test">
+		<classes>
+			<class name="com.scripting.page.ScriptRunning_class">
+
+				<methods>
+					<include name="userLogin" />
+				</methods>
+			</class>
+			</classes>
+	</test>
+</suite> <!-- Suite -->
+			

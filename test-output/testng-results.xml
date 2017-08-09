@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice TestNG" duration-ms="91" started-at="2017-05-14T15:57:51Z" finished-at="2017-05-14T15:57:52Z">
+    <groups>
+    </groups>
+    <test name="Firefox browser Test" duration-ms="11" started-at="2017-05-14T15:57:51Z" finished-at="2017-05-14T15:57:51Z">
+    </test> <!-- Firefox browser Test -->
+    <test name="Chrome browser Test" duration-ms="21" started-at="2017-05-14T15:57:51Z" finished-at="2017-05-14T15:57:51Z">
+    </test> <!-- Chrome browser Test -->
+    <test name="Functional Test" duration-ms="81" started-at="2017-05-14T15:57:51Z" finished-at="2017-05-14T15:57:52Z">
+      <class name="com.scripting.page.ScriptRunning_class">
+        <test-method status="FAIL" signature="beforeMethod(java.lang.String)[pri:0, instance:com.scripting.page.ScriptRunning_class@91161c7]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-14T11:57:51Z" finished-at="2017-05-14T11:57:51Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'run' is required by @Configuration on method beforeMethod but has not been marked @Optional or defined
+in C:\usr\development\workspace\My Ups\crossBrowser.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'run' is required by @Configuration on method beforeMethod but has not been marked @Optional or defined
+in C:\usr\development\workspace\My Ups\crossBrowser.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="userLogin()[pri:0, instance:com.scripting.page.ScriptRunning_class@91161c7]" name="userLogin" duration-ms="30" started-at="2017-05-14T11:57:51Z" finished-at="2017-05-14T11:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:com.scripting.page.ScriptRunning_class@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-05-14T11:57:52Z" finished-at="2017-05-14T11:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.scripting.page.ScriptRunning_class -->
+    </test> <!-- Functional Test -->
+    <test name="IE browser Test" duration-ms="10" started-at="2017-05-14T15:57:51Z" finished-at="2017-05-14T15:57:51Z">
+    </test> <!-- IE browser Test -->
+  </suite> <!-- Practice TestNG -->
+</testng-results>

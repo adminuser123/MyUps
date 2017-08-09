@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Practice_TestNG">
+              <span class="suite-name border-skipped">Practice TestNG</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Practice_TestNG">
+                    <span>C:\usr\development\workspace\My Ups\crossBrowser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Practice_TestNG">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Practice_TestNG">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Practice_TestNG">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Practice_TestNG">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Practice_TestNG">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Practice_TestNG">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Practice_TestNG" class="hide-methods skipped suite-Practice_TestNG"> (hide)</a> <!-- hide-methods skipped suite-Practice_TestNG -->
+                      <a href="#" panel-name="suite-Practice_TestNG" class="show-methods skipped suite-Practice_TestNG"> (show)</a> <!-- show-methods skipped suite-Practice_TestNG -->
+                    </span>
+                    <div class="method-list-content skipped suite-Practice_TestNG">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Practice_TestNG" title="com.scripting.page.ScriptRunning_class" hash-for-method="userLogin">userLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Practice_TestNG -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Practice_TestNG" class="panel Practice_TestNG">
+          <div class="suite-Practice_TestNG-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.scripting.page.ScriptRunning_class</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogin">
+                  </a> <!-- userLogin -->
+                  <span class="method-name">userLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Practice_TestNG-class-skipped -->
+        </div> <!-- panel Practice_TestNG -->
+        <div panel-name="test-xml-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\usr\development\workspace\My Ups\crossBrowser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Practice TestNG&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Firefox browser Test&quot;&gt;
+    &lt;parameter name=&quot;run&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.main.driverBase.BaseDriverClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox browser Test --&gt;
+  &lt;test name=&quot;Chrome browser Test&quot;&gt;
+    &lt;parameter name=&quot;run&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.main.driverBase.BaseDriverClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome browser Test --&gt;
+  &lt;test name=&quot;IE browser Test&quot;&gt;
+    &lt;parameter name=&quot;run&quot; value=&quot;ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.main.driverBase.BaseDriverClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- IE browser Test --&gt;
+  &lt;test name=&quot;Functional Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.scripting.page.ScriptRunning_class&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;userLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.scripting.page.ScriptRunning_class --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Functional Test --&gt;
+&lt;/suite&gt; &lt;!-- Practice TestNG --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Practice TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Firefox browser Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Chrome browser Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">IE browser Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Functional Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Practice TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Practice TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Practice_TestNG');
+function tableData_Practice_TestNG() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'userLogin')
+data.setCell(0, 2, 'com.scripting.page.ScriptRunning_class')
+data.setCell(0, 3, 30);
+window.suiteTableData['Practice_TestNG']= { tableData: data, tableDiv: 'times-div-Practice_TestNG'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 ms</span>
+              <div id="times-div-Practice_TestNG">
+              </div> <!-- times-div-Practice_TestNG -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Practice TestNG</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Practice_TestNG" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.scripting.page.ScriptRunning_class</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userLogin</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
